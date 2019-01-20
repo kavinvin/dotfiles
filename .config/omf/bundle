@@ -1,2 +1,4 @@
+package fasd
+package https://github.com/jhillyerd/plugin-git
 theme default
 theme https://github.com/kavinvin/salmon-theme
