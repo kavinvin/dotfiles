@@ -1,23 +1,23 @@
 [color]
-    ui = true
+	ui = true
 [color "status"]
-    untracked = white
+	untracked = white
 [color "branch"]
-    remote = yellow
+	remote = yellow
 [core]
-    editor = nvim
+	editor = nvim
 [push]
-    default = upstream
+	default = upstream
 [merge]
-    conflictstyle = diff3
+	conflictstyle = diff3
 [alias]
-    dt = difftool
+	dt = difftool
 [user]
-    name = kavinvin
-    email = kavinvin.vin@gmail.com
+	name = kavinvin
+	email = kavinvin.vin@gmail.com
 [diff]
-    tool = vimdiff
+	tool = vimdiff
 [merge]
-    tool = vimdiff
+	tool = vimdiff
 [difftool]
-    prompt = false
+	prompt = false
