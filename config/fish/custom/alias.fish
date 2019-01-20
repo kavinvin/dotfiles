@@ -52,7 +52,7 @@ abbr ne nix-env
 abbr k kanji
 alias e exit
 abbr race typerace
-alias reload 'source $HOME/.dotfiles/fish/config.fish'
+alias reload 'source $HOME/.config/fish/config.fish'
 abbr k kanjidamage
 abbr kd kanjidamage
 abbr j jisho
@@ -63,3 +63,4 @@ abbr ku kubectl
 abbr gssh 'gcloud compute ssh'
 alias vim nvim
 alias vi nvim
+alias v 'f -e nvim'
