@@ -6,7 +6,7 @@ function vf
   if test not $is_vf_loaded
     set -gx is_vf_loaded true
     echo 'Loading virtualfish...'
-    eval (python -m virtualfish)
+    eval (python3 -m virtualfish)
   end
   vf $argv
 end
@@ -16,9 +16,10 @@ end
 
 function load
   set_path
-  #fish_vi_key_bindings
-  set -g fish_user_paths "/usr/local/opt/gettext/bin" $fish_user_paths
+  fish_vi_key_bindings
   source $HOME/.config/fish/custom/alias.fish
+  source $HOME/.config/fish/custom/utils.fish
+  source $HOME/.config/fish/custom/functions.fish
 end
 
 load
