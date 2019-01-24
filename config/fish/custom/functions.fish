@@ -17,3 +17,11 @@ function sudo
         command sudo $argv
     end
 end
+
+function pandoc-preview-md
+	mkdir -p /tmp/pandoc
+    set filename $argv[1]
+    set temp_preview
+    pandoc -f markdown -t html < $filename > /tmp/pandoc/$filename.html
+    safari /tmp/pandoc/$filename.html
+end

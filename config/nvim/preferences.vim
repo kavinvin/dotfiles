@@ -27,7 +27,7 @@ set splitbelow
 set splitright
 
 " Use /bin/sh
-set shell=/bin/sh
+set shell=/usr/local/bin/fish
 
 " Disable vim mode status bar
 set noshowmode
@@ -37,3 +37,6 @@ set lazyredraw
 
 " Enable magic and no-magic character in regular expression
 set magic
+
+" Set directory to store swap files
+set dir=~/.cache/vim

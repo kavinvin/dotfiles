@@ -35,6 +35,9 @@ nmap <leader>v "vyiw:call system('pipe-arg vocabulary', @v)<cr>
 " space + s = reload vim configuration
 nmap <leader>s :so $MYVIMRC<cr>
 
+" space + p = preview markdown as html in Safari
+nmap <leader>md :w !pandoc -f markdown -t html > /tmp/pandoc.html<cr>:!safari /tmp/pandoc.html<cr><cr>
+
 " Enable going up and down on wrapped lines.
 " This makes navigating long lines (e.g. minified code) much easier.
 " Read more: http://tilvim.com/2013/05/16/visual-lines.html
@@ -42,3 +45,9 @@ nnoremap <expr> j v:count ? 'j' : 'gj'
 nnoremap <expr> k v:count ? 'k' : 'gk'
 nnoremap gj j
 nnoremap gk k
+
+" space + p to scroll to older register
+nmap <leader>p <Plug>yankstack_substitute_older_paste
+
+" space + shift + p to scroll to newer register
+nmap <leader>P <Plug>yankstack_substitute_newer_paste
