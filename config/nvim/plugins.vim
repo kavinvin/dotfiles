@@ -48,9 +48,30 @@ Plug 'jiangmiao/auto-pairs'
 " Emacs kill-ring but it's in vim.
 "s meta + p = cycle backward through your history of yanks
 " meta + shift + p = cycle forwards through your history of yanks
-Plug 'maxbrunsfeld/vim-yankstack'
+""Plug 'maxbrunsfeld/vim-yankstack'
 
 " Create directory if not exist when writing a file
 Plug 'pbrisbin/vim-mkdir'
+
+" Run current file
+Plug 'thinca/vim-quickrun'
+
+" Comment out lines
+Plug 'tpope/vim-commentary'
+
+" Adjust indentation style based on current and related files
+Plug 'tpope/vim-sleuth'
+
+" NERDTree
+Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
+
+" Colorize color code
+Plug 'lilydjwg/colorizer'
+
+" Show indentation lines
+Plug 'Yggdroot/indentLine'
+
+" Julia syntax highlighting
+Plug 'JuliaEditorSupport/julia-vim'
 
 call plug#end()

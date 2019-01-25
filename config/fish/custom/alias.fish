@@ -64,3 +64,4 @@ abbr gssh 'gcloud compute ssh'
 alias vim nvim
 alias vi nvim
 alias v 'f -e nvim'
+abbr ic imgcat

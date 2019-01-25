@@ -11,8 +11,8 @@ let g:strip_whitelines_at_eof=1
 let g:show_spaces_that_precede_tabs=1
 
 " Enable auto save
-let g:auto_save = 1
-let g:auto_save_silent = 1
+let g:auto_save = 0
+let g:auto_save_silent = 0
 let g:auto_save_in_insert_mode = 0
 
 " Set move key to use alt + [jkhl]

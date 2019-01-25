@@ -46,8 +46,18 @@ nnoremap <expr> k v:count ? 'k' : 'gk'
 nnoremap gj j
 nnoremap gk k
 
-" space + p to scroll to older register
+" space + p = scroll to older register
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 
-" space + shift + p to scroll to newer register
+" space + shift + p = scroll to newer register
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
+
+" option + r = run
+nnoremap <A-r> :QuickRun<cr>
+
+" option + / = comment or uncomment
+nmap <A-/> gcc
+vmap <A-/> gc
+
+" ctrl + e = toggle nerdtree
+map <C-e> :NERDTreeToggle<cr>
