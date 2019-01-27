@@ -74,4 +74,7 @@ Plug 'Yggdroot/indentLine'
 " Julia syntax highlighting
 Plug 'JuliaEditorSupport/julia-vim'
 
+" Multiple Cursors (ctrl + n)
+Plug 'terryma/vim-multiple-cursors'
+
 call plug#end()

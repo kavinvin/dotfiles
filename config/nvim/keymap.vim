@@ -1,13 +1,13 @@
 " Set leader key to space
 let g:mapleader = "\<space>"
 
-" esc + esc = remove search highlights
-nnoremap <esc><esc> :nohlsearch<cr>
+" , + space = remove search highlights
+nnoremap ,<space> :nohlsearch<cr>
 
 " space + f = search files in current directory
 nnoremap <C-p> :FZF<cr>
 
-" ctrl + y = selecting text to clipboard
+" ctrl + y = copy selecting text to clipboard
 vnoremap <C-y> y:call system('pbcopy', @0)<cr>
 nnoremap <C-y> yl:call system('pbcopy', @0)<cr>
 

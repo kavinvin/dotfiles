@@ -17,3 +17,14 @@ let g:auto_save_in_insert_mode = 0
 
 " Set move key to use alt + [jkhl]
 let g:move_key_modifier = 'A'
+
+" CSV rainbow color
+let yellow = ['NONE', '#f1fa8c']
+let orange = ['NONE', '#ffb86c']
+let red = ['NONE', '#ff8888']
+let pink = ['NONE', '#ff89d6']
+let purple = ['NONE', '#a298fd']
+let cyan = ['NONE', '#8be9fd']
+let green = ['NONE', '#50fa7b']
+let white = ['NONE', '#f8f8f2']
+let g:rcsv_colorpairs = [yellow, orange, red, pink, purple, cyan, green, white]
