@@ -38,5 +38,8 @@ set lazyredraw
 " Enable magic and no-magic character in regular expression
 set magic
 
+" Yank to clipboard
+set clipboard=unnamed
+
 " Set directory to store swap files
 set dir=~/.cache/vim
