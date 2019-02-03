@@ -39,7 +39,7 @@ set lazyredraw
 set magic
 
 " Yank to clipboard
-set clipboard=unnamed
+"set clipboard=unnamed
 
 " Set directory to store swap files
 set dir=~/.cache/vim

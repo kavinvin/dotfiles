@@ -77,4 +77,7 @@ Plug 'JuliaEditorSupport/julia-vim'
 " Multiple Cursors (ctrl + n)
 Plug 'terryma/vim-multiple-cursors'
 
+" Smooth Scroll
+"Plug 'terryma/vim-smooth-scroll'
+
 call plug#end()
