@@ -90,7 +90,9 @@ Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 
 " Python completion
-Plug 'ncm2/ncm2-jedi'
+" Plug 'ncm2/ncm2-jedi'
+" Faster fork of ncm2-jedi: https://github.com/ncm2/ncm2-jedi/issues/6
+Plug 'HansPinckaers/ncm2-jedi'
 
 " Use tab for completion
 Plug 'ervandew/supertab'
