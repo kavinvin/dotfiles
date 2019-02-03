@@ -28,3 +28,14 @@ let cyan = ['NONE', '#8be9fd']
 let green = ['NONE', '#50fa7b']
 let white = ['NONE', '#f8f8f2']
 let g:rcsv_colorpairs = [yellow, orange, red, pink, purple, cyan, green, white]
+
+" Set python interpreter for language server
+let g:python_host_prog = '/Users/kavinvin/.virtualenvs/nvim/bin/python'
+let g:python3_host_prog = '/Users/kavinvin/.virtualenvs/nvim/bin/python3'
+
+" Enable ncm2 for all buffers
+autocmd BufEnter * call ncm2#enable_for_buffer()
+
+" Reverse supertab mappings
+let g:SuperTabMappingForward = '<s-tab>'
+let g:SuperTabMappingBackward = '<tab>'

@@ -77,7 +77,22 @@ Plug 'JuliaEditorSupport/julia-vim'
 " Multiple Cursors (ctrl + n)
 Plug 'terryma/vim-multiple-cursors'
 
-" Smooth Scroll
-"Plug 'terryma/vim-smooth-scroll'
+" Yet Another Remote Plugin Framework for Neovim
+Plug 'roxma/nvim-yarp'
+
+" Neovim completion manager
+Plug 'ncm2/ncm2'
+
+" Completion for current buffer
+Plug 'ncm2/ncm2-bufword'
+
+" File path completion
+Plug 'ncm2/ncm2-path'
+
+" Python completion
+Plug 'ncm2/ncm2-jedi'
+
+" Use tab for completion
+Plug 'ervandew/supertab'
 
 call plug#end()
