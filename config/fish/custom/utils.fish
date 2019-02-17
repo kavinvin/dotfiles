@@ -59,20 +59,20 @@ function pipe-arg
 end
 
 function kanjidamage
-  set query $argv[1]
+  set query $argv
   #set url (curl -Ls -o /dev/null -w "%{url_effective}" "http://www.kanjidamage.com/kanji/search?q=$argv[1]")
   set url "http://www.kanjidamage.com/kanji/search?q=$query"
   safari $url
 end
 
 function jisho
-  set query $argv[1]
+  set query $argv
   set url "https://jisho.org/search/$query"
   safari $url
 end
 
 function vocabulary
-  set query $argv[1]
+  set query $argv
   set url "https://www.vocabulary.com/dictionary/$query"
   safari $url
 end
@@ -88,4 +88,3 @@ function __fish_complete_openssl
 end
 
 complete -c openssl -a '(__fish_complete_openssl)' -f
-

@@ -8,3 +8,4 @@ def configure(repl):
     repl.enable_mouse_support = True
     # repl.use_code_colorscheme('fruity')
     # repl.highlight_matching_parenthesis = True
+    repl.use_code_colorscheme('monokai')

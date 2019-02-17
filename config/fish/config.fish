@@ -3,8 +3,7 @@ function add_path
 end
 
 function vf
-    if test not $is_vf_loaded
-        set -gx is_vf_loaded true
+    if not test -n "$VIRTUALFISH_HOME"
         echo 'Loading virtualfish...'
         eval (python3 -m virtualfish)
     end
@@ -25,4 +24,6 @@ end
 
 load
 
-# test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/kavinvin/google-cloud-sdk/path.fish.inc' ]; . '/Users/kavinvin/google-cloud-sdk/path.fish.inc'; end
+set -gx GOOGLE_APPLICATION_CREDENTIALS '/Users/kavinvin/.auth/kavinvin-f23b2b368703-lectio-owner.json'

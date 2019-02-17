@@ -43,7 +43,7 @@ Plug 'farmergreg/vim-lastplace'
 Plug '907th/vim-auto-save'
 
 " Auto add paring parentheses
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 
 " Emacs kill-ring but it's in vim.
 "s meta + p = cycle backward through your history of yanks
