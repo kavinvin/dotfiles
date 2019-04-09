@@ -1,3 +1,3 @@
 function gns
-	telnet gns.itforge.io $argv[1]
+	telnet 192.168.9.128 $argv[1]
 end

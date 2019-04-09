@@ -1,3 +1,5 @@
 package https://github.com/jhillyerd/plugin-git
+package z
+theme bobthefish
 theme default
 theme https://github.com/kavinvin/salmon-theme

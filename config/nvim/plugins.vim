@@ -12,6 +12,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Fish syntax
 Plug 'dag/vim-fish'
 
+" Coconut syntax
+Plug 'manicmaniac/coconut.vim'
+
 " Better status bar
 Plug 'vim-airline/vim-airline'
 
@@ -78,23 +81,32 @@ Plug 'JuliaEditorSupport/julia-vim'
 Plug 'terryma/vim-multiple-cursors'
 
 " Yet Another Remote Plugin Framework for Neovim
-Plug 'roxma/nvim-yarp'
+" Plug 'roxma/nvim-yarp'
 
-" Neovim completion manager
-Plug 'ncm2/ncm2'
+" " Neovim completion manager
+" Plug 'ncm2/ncm2'
 
-" Completion for current buffer
-Plug 'ncm2/ncm2-bufword'
+" " Completion for current buffer
+" Plug 'ncm2/ncm2-bufword'
 
-" File path completion
-Plug 'ncm2/ncm2-path'
+" " File path completion
+" Plug 'ncm2/ncm2-path'
 
-" Python completion
-" Plug 'ncm2/ncm2-jedi'
-" Faster fork of ncm2-jedi: https://github.com/ncm2/ncm2-jedi/issues/6
-Plug 'HansPinckaers/ncm2-jedi'
+" " Language client
+" " Plug 'autozimu/LanguageClient-neovim', {
+" "     \ 'branch': 'next',
+" "     \ 'do': './install.sh'
+" "     \ }
 
-" Use tab for completion
-Plug 'ervandew/supertab'
+" " Deoplete
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" " Python completion
+" " Plug 'ncm2/ncm2-jedi'
+" " Faster fork of ncm2-jedi: https://github.com/ncm2/ncm2-jedi/issues/6
+" Plug 'HansPinckaers/ncm2-jedi'
+
+" " Use tab for completion
+" Plug 'ervandew/supertab'
 
 call plug#end()

@@ -53,16 +53,18 @@ abbr k kanji
 alias e exit
 abbr race typerace
 alias reload 'source $HOME/.config/fish/config.fish'
-abbr k kanjidamage
 abbr kd kanjidamage
 abbr j jisho
 abbr vo vocabulary
 abbr ts ts-node
 abbr ju julia
-abbr ku kubectl
+abbr k kubectl
 abbr gssh 'gcloud compute ssh'
 alias vim nvim
 alias vi nvim
 alias v 'f -e nvim'
 abbr ic imgcat
 abbr m maid
+abbr co coconut
+abbr do docker
+alias rtk 'open ~/Library/Mobile\ Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/James\ W.\ Heisig\ -\ Remembering\ the\ Kanji\ 1\ -\ A\ Complete\ Course\ on\ How\ Not\ to\ Forget\ the\ Meaning\ and\ Writing\ of\ Japanese\ Characters\ -\ University\ of\ Hawaii\ Press\ \(2011\).pdf'

@@ -24,7 +24,7 @@ inoremap <C-x> <C-x><C-f>
 nmap <leader>wc :w !wc<cr>
 
 " ctrl + a select all
-noremap <C-a> <esc>ggVG<CR>
+noremap <leader>a <esc>ggVG<CR>
 
 " Vocabulary utils
 nmap <leader>k "kyl:call system('pipe-arg kanjidamage', @k)<cr>

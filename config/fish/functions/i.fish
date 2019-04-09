@@ -1,5 +1,3 @@
 function i
-	cd $argv[1]
-open .
-cd -
+	open (d $argv[1])
 end

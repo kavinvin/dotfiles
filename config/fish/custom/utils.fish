@@ -77,6 +77,11 @@ function vocabulary
   safari $url
 end
 
+function kanji
+  set DATA_PATH ~/.config/fish/data/inverse-1-to-N.json
+  cat $DATA_PATH | fx ".$argv[1]"
+end
+
 complete -f -c wifi -a 'on off restart status proxy'
 complete -f -c kerio -a '(__fish_complete_kerio)'
 complete -f -c typerace -a 'practice online'

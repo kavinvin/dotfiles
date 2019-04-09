@@ -41,11 +41,18 @@ set magic
 " Yank to clipboard
 "set clipboard=unnamed
 
+" Persist undo history across sessions.
+set undofile
+set undodir=~/.vim/undo
+
 " Set directory to store swap files
 set dir=~/.cache/vim
 
 " enable ncm2 for all buffers
-autocmd BufEnter * call ncm2#enable_for_buffer()
+" autocmd BufEnter * call ncm2#enable_for_buffer()
 
 " IMPORTANT: :help Ncm2PopupOpen for more information
 set completeopt=noinsert,menuone,noselect
+
+" Disable introduction message
+set shortmess=I
