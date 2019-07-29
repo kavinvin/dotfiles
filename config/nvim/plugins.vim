@@ -81,32 +81,44 @@ Plug 'JuliaEditorSupport/julia-vim'
 Plug 'terryma/vim-multiple-cursors'
 
 " Yet Another Remote Plugin Framework for Neovim
-" Plug 'roxma/nvim-yarp'
+Plug 'roxma/nvim-yarp'
 
-" " Neovim completion manager
-" Plug 'ncm2/ncm2'
+" Neovim completion manager
+Plug 'ncm2/ncm2'
 
-" " Completion for current buffer
-" Plug 'ncm2/ncm2-bufword'
+" Completion for current buffer
+Plug 'ncm2/ncm2-bufword'
 
-" " File path completion
-" Plug 'ncm2/ncm2-path'
+" File path completion
+Plug 'ncm2/ncm2-path'
 
-" " Language client
-" " Plug 'autozimu/LanguageClient-neovim', {
-" "     \ 'branch': 'next',
-" "     \ 'do': './install.sh'
-" "     \ }
+" Language client
+" Plug 'autozimu/LanguageClient-neovim', {
+"     \ 'branch': 'next',
+"     \ 'do': './install.sh'
+"     \ }
 
-" " Deoplete
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Deoplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
-" " Python completion
-" " Plug 'ncm2/ncm2-jedi'
-" " Faster fork of ncm2-jedi: https://github.com/ncm2/ncm2-jedi/issues/6
-" Plug 'HansPinckaers/ncm2-jedi'
+" Python completion
+Plug 'ncm2/ncm2-jedi'
+" Faster fork of ncm2-jedi: https://github.com/ncm2/ncm2-jedi/issues/6
+" Plug 'kavinvin/ncm2-jedi'
 
-" " Use tab for completion
-" Plug 'ervandew/supertab'
+" Jedi Vim
+Plug 'davidhalter/jedi-vim'
+
+" Color and sort imports
+" Plug 'tweekmonster/impsort.vim'
+
+" Use tab for completion
+Plug 'ervandew/supertab'
+
+" Rust Language Support
+Plug 'rust-lang/rust.vim'
+
+" TOML syntax
+Plug 'cespare/vim-toml'
 
 call plug#end()

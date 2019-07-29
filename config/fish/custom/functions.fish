@@ -25,3 +25,16 @@ function pandoc-preview-md
     pandoc -f markdown -t html < $filename > /tmp/pandoc/$filename.html
     safari /tmp/pandoc/$filename.html
 end
+
+function th
+    sdcv $argv[1] -u 'English-Thai Lexitron Dictionary 2.0' -c | less -r
+end
+function en
+    sdcv $argv[1] -u 'dictd_www.dict.org_gcide' -c | less -r
+end
+function je
+    sdcv $argv[1] -u 'jmdict-ja-en' -c
+end
+function ej
+    sdcv $argv[1] -u 'jmdict-en-ja' -c
+end

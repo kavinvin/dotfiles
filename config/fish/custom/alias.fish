@@ -47,7 +47,7 @@ abbr ta 'tmux a -t'
 abbr tn 'tmux new -s'
 abbr y yarn
 abbr kat 'kafkacat'
-abbr c cabal
+abbr c cargo
 abbr ne nix-env
 abbr k kanji
 alias e exit
@@ -59,12 +59,13 @@ abbr vo vocabulary
 abbr ts ts-node
 abbr ju julia
 abbr k kubectl
+abbr cl gcloud
 abbr gssh 'gcloud compute ssh'
 alias vim nvim
 alias vi nvim
 alias v 'f -e nvim'
 abbr ic imgcat
-abbr m maid
+abbr m myougiden
 abbr co coconut
 abbr do docker
 alias rtk 'open ~/Library/Mobile\ Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/James\ W.\ Heisig\ -\ Remembering\ the\ Kanji\ 1\ -\ A\ Complete\ Course\ on\ How\ Not\ to\ Forget\ the\ Meaning\ and\ Writing\ of\ Japanese\ Characters\ -\ University\ of\ Hawaii\ Press\ \(2011\).pdf'

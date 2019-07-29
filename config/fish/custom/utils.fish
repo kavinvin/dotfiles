@@ -79,7 +79,7 @@ end
 
 function kanji
   set DATA_PATH ~/.config/fish/data/inverse-1-to-N.json
-  cat $DATA_PATH | fx ".$argv[1]"
+  cat $DATA_PATH | fx ".$argv[1]" | cat
 end
 
 complete -f -c wifi -a 'on off restart status proxy'

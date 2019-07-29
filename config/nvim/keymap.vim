@@ -4,7 +4,10 @@ let g:mapleader = "\<space>"
 " , + space = remove search highlights
 nnoremap ,<space> :nohlsearch<cr>
 
-" space + f = search files in current directory
+" ctrl + i = return to previous file
+noremap <C-i> :e#<cr>
+
+" ctrl + p = search files in current directory
 nnoremap <C-p> :FZF<cr>
 
 " ctrl + y = copy selecting text to clipboard
@@ -20,7 +23,7 @@ nnoremap <C-l> <C-w><C-l>
 " ctrl + x = autocomplete directory
 inoremap <C-x> <C-x><C-f>
 
-" space + wc = count words in current file
+" leader + wc = count words in current file
 nmap <leader>wc :w !wc<cr>
 
 " ctrl + a select all
@@ -32,10 +35,10 @@ nmap <leader>j "jyl:call system('pipe-arg jisho', @j)<cr>
 vmap <leader>j "jy:call system('pipe-arg jisho', @j)<cr>
 nmap <leader>v "vyiw:call system('pipe-arg vocabulary', @v)<cr>
 
-" space + s = reload vim configuration
+" leader + s = reload vim configuration
 nmap <leader>s :so $MYVIMRC<cr>
 
-" space + p = preview markdown as html in Safari
+" leader + p = preview markdown as html in Safari
 nmap <leader>md :w !pandoc -f markdown -t html > /tmp/pandoc.html<cr>:!safari /tmp/pandoc.html<cr><cr>
 
 " Enable going up and down on wrapped lines.
@@ -46,10 +49,10 @@ nnoremap <expr> k v:count ? 'k' : 'gk'
 nnoremap gj j
 nnoremap gk k
 
-" space + p = scroll to older register
+" leader + p = scroll to older register
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 
-" space + shift + p = scroll to newer register
+" leader + shift + p = scroll to newer register
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 " option + r = run
