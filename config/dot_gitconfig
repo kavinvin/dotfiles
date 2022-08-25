@@ -1,0 +1,30 @@
+[color]
+	ui = true
+[color "status"]
+	untracked = white
+[color "branch"]
+	remote = yellow
+[core]
+	editor = nvim
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[alias]
+	dt = difftool
+[user]
+	name = kavinvin
+	email = kavinvin.vin@gmail.com
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[credential]
+	helper = osxkeychain
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+
