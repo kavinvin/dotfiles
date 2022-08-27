@@ -11,12 +11,6 @@ for i in (seq 9)
   alias $i 'tmux new -A -s '$i
 end
 
-alias a 'fasd -a'
-alias d 'fasd -d'
-alias f 'fasd -f'
-alias s 'fasd -si'
-alias sd 'fasd -sid'
-alias sf 'fasd -sif'
 alias v 'f -e vim'
 
 alias l 'ls -lah'
