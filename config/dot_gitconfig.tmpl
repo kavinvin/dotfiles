@@ -14,7 +14,7 @@
 	dt = difftool
 [user]
 	name = kavinvin
-	email = kavinvin.vin@gmail.com
+	email = {{ index .email (index .environment .chezmoi.username) }}
 [diff]
 	tool = vimdiff
 [merge]
