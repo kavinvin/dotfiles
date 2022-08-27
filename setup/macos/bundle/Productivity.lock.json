@@ -42,6 +42,12 @@
         "options": {
           "full_name": "kawa"
         }
+      },
+      "rectangle": {
+        "version": "0.58,64",
+        "options": {
+          "full_name": "rectangle"
+        }
       }
     }
   },

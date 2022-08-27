@@ -1,3 +1,4 @@
 brew "mas"
 
 cask "kawa"
+cask "rectangle"
