@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 # Install fzf useful key bindings and fuzzy completion
 $(brew --prefix)/opt/fzf/install
 
