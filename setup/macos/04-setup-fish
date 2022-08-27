@@ -19,5 +19,7 @@ fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/
 fish -c "fisher install catppuccin/fish"
 fish -c "fisher install jhillyerd/plugin-git"
 fish -c "fisher install jethrokuan/z"
+fish -c "fisher install franciscolourenco/done"
+fish -c "fisher install jorgebucaran/spark.fish"
 
 fish -c "set -U fish_greeting ''"
