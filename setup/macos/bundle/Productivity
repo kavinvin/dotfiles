@@ -1,2 +1,3 @@
 brew "mas"
-# cask "kawa"
+
+cask "kawa"
