@@ -13,7 +13,7 @@
 [alias]
 	dt = difftool
 [user]
-	name = kavinvin
+	name = {{ .chezmoi.username }}
 	email = {{ index .email (index .environment .chezmoi.username) }}
 [diff]
 	tool = vimdiff
