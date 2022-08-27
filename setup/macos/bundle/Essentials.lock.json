@@ -95,6 +95,12 @@
         "options": {
           "full_name": "lunar"
         }
+      },
+      "notion": {
+        "version": "2.1.1",
+        "options": {
+          "full_name": "notion"
+        }
       }
     }
   },
