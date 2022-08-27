@@ -89,6 +89,12 @@
         "options": {
           "full_name": "telegram"
         }
+      },
+      "lunar": {
+        "version": "5.7.7",
+        "options": {
+          "full_name": "lunar"
+        }
       }
     }
   },

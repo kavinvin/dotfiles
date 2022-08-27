@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-# Telegram
-mas install 747648890
+mas install 747648890 # Telegram
+mas install 803453959 # Slack
+mas install 1569813296 # 1Password for Safari
