@@ -26,9 +26,9 @@ function prompt_login --description 'display user name for the prompt'
             set color_host $fish_color_host_remote
         end
 
-        if test -n $SSH_CLIENT
+        if test $SSH_CLIENT
             echo -n -s @ (set_color $color_host) (prompt_hostname) (set_color normal)
-	      else
+        else
 	          echo -n -s ""
         end
     end
