@@ -12,9 +12,11 @@
 	conflictstyle = diff3
 [alias]
 	dt = difftool
+{{- if (index .environment .chezmoi.username) }}
 [user]
 	name = {{ .chezmoi.username }}
 	email = {{ index .email (index .environment .chezmoi.username) }}
+{{- end }}
 [diff]
 	tool = vimdiff
 [merge]
