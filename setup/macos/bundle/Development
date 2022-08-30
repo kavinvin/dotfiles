@@ -15,6 +15,7 @@ brew "pre-commit"
 brew "fzf"
 brew "sbt"
 brew "haskell-stack"
+brew "openjdk"
 
 cask "iterm2"
 cask "docker"
