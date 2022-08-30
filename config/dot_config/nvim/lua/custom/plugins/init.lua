@@ -18,6 +18,7 @@ M.user = {
     end
   },
   ["chakrit/vim-thai-keys"] = {},
+  ["gpanders/editorconfig.nvim"] = {},
 }
 
 return M
