@@ -22,6 +22,9 @@ M.telescope = {
   -- find files
   findFiles = { "<cmd> Telescope find_files <CR>", "find files" },
 
+  -- live greps
+  liveGreps = { "<cmd> Telescope live_grep <CR>", "live greps" },
+
   -- git log
   gitLog = { "<cmd> Telescope git_commits <CR>", "git commits" },
 

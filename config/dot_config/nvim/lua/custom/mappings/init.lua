@@ -17,6 +17,7 @@ M.remap = {
     ["<C-w>"] = keymaps.general.closeBuffer,
     ["<A-e>"] = keymaps.nvimtree.toggle,
     ["<C-p>"] = keymaps.telescope.findFiles,
+    ["<C-S-p>"] = keymaps.telescope.liveGreps,
     ["glg"] = keymaps.telescope.gitLog,
     ["gst"] = keymaps.telescope.gitStatus,
     ["<A-`>"] = keymaps.nvterm.horizontalTerm,
