@@ -1,6 +1,6 @@
 function set_path
     {{- if eq .chezmoi.arch "arm64" }}
-    fish_add_path /opt/homebrew/bin    
+    fish_add_path /opt/homebrew/bin
     {{- end }}
     fish_add_path $HOME/.jenv/bin
     fish_add_path $HOME/.local/bin
@@ -24,4 +24,3 @@ end
 if status is-interactive
     load_interactive
 end
-

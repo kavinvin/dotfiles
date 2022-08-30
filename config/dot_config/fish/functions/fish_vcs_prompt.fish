@@ -9,4 +9,3 @@ function fish_vcs_prompt --description 'Print all vcs prompts'
     # You can also only use it in specific directories by checking $PWD.
     # or fish_svn_prompt
 end
-
