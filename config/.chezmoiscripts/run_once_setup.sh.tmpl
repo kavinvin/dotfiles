@@ -3,17 +3,17 @@
 cd "{{ .chezmoi.sourceDir }}/../setup"
 
 function run_setup_script {
-	for script in $(ls $1/*.*sh)
-	do
-		echo -e "Running $script"
-		$script
-	done
+  for script in $(ls $1/*.*sh)
+  do
+    echo -e "Running $script"
+    $script
+  done
 }
 
 {{ if eq .chezmoi.os "linux" -}}
-	run_setup_script "linux"
+run_setup_script "linux"
 {{ else if eq .chezmoi.os "darwin" -}}
-	run_setup_script "macos"
-{{ else }}
-  echo "Unsupported OS."
+run_setup_script "macos"
+{{ else -}}
+echo "Unsupported OS."
 {{ end -}}
