@@ -6,6 +6,8 @@ function install-bundle {
   brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME
 }
 
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
 install-bundle "Browser"
 install-bundle "Essentials"
 install-bundle "Development"
