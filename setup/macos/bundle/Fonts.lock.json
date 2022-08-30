@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "3bb71925c3273903eacc43890d041ef7baa0e180"
+        "revision": "dd754afae30462d97f5fb7729153eb460b7a6878"
       }
     },
     "cask": {
@@ -13,7 +13,7 @@
         }
       },
       "font-jetbrains-mono-nerd-font": {
-        "version": "2.1.0",
+        "version": "2.2.1",
         "options": {
           "full_name": "font-jetbrains-mono-nerd-font"
         }
@@ -25,7 +25,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.10",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "924804ffe228c48b5ca77738a7450a56fcecc9af",
+        "Homebrew/homebrew-core": "002b073244316d3f3a7074ba42d65cba78a2fa8f",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.5.1"

@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 function install-bundle {
+  BUNDLE_FILENAME="$1"
   BUNDLE_DIR="bundle"
-  brew bundle --file "$BUNDLE_DIR/$1"
+  brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME
 }
 
 install-bundle "Browser"

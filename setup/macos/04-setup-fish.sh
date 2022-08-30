@@ -2,11 +2,11 @@
 
 function in_file {
   PATTERN="$1"
-  FILE="$2"
-  return $(grep -Fxq "$PATTERN" $FILE)
+  FILEPATH="$2"
+  return $(grep -Fxq "$PATTERN" $FILEPATH)
 }
 
-if in_file $(which fish) /etc/shells
+if in_file "$(which fish)" /etc/shells
 then
   echo "$(which fish) is already added to default shells"
 else
