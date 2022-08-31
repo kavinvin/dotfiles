@@ -6,7 +6,7 @@ repos:
     rev: v4.1.0
     hooks:
       - id: check-added-large-files
-        args: [--maxkb=200, --enforce-all]
+        args: [--maxkb=100, --enforce-all]
       - id: check-case-conflict
       - id: check-merge-conflict
       - id: end-of-file-fixer
