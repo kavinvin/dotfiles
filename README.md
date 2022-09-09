@@ -1,12 +1,14 @@
 # Kavin's dotfiles
 
-## Installation
+## Usage
+
+### Installation
 
 ```bash
 sh -c "$(curl -fsLS git.io/chezmoi)" -- init --apply kavinvin
 ```
 
-## Configure your local settings
+### Configure your local settings
 
 Create or edit toml file at `~/.config/chezmoi/chezmoi.toml`
 
@@ -22,7 +24,7 @@ Apply changes
 $ chezmoi apply
 ```
 
-## Pull and apply dotfiles change from this repo
+### Pull and apply dotfiles change from this repo
 
 ```bash
 $ chezmoi update
