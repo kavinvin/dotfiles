@@ -16,13 +16,13 @@ Create or edit toml file at `~/.config/chezmoi/chezmoi.toml`
   email = "your email"
 ```
 
-Apply configuration
+Apply changes
 
 ```bash
 $ chezmoi apply
 ```
 
-## Fetch and install dotfiles update from this repo
+## Pull and apply dotfiles change from this repo
 
 ```bash
 $ chezmoi update
