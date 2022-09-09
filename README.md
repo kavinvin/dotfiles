@@ -22,4 +22,10 @@ Apply configuration
 $ chezmoi apply
 ```
 
+## Fetch and install dotfiles update from this repo
+
+```bash
+$ chezmoi update
+```
+
 Inspired by https://github.com/heypoom/dotfiles
