@@ -12,10 +12,12 @@
 	conflictstyle = diff3
 [alias]
 	dt = difftool
-{{ if (index .environment .chezmoi.username) -}}
 [user]
-	name = {{ .chezmoi.username }}
-	email = {{ index .email (index .environment .chezmoi.username) }}
+{{ if hasKey .git "username" -}}
+{{ "\t" }}name = {{ .git.username }}
+{{ end -}}
+{{ if hasKey .git "email" -}}
+{{ "\t" }}email = {{ .git.email }}
 {{ end -}}
 [diff]
 	tool = vimdiff
