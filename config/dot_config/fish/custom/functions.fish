@@ -2,6 +2,10 @@ function chrome
 	open -a "Google Chrome" $argv
 end
 
+function safari
+  open -a "Safari" $argv
+end
+
 function docker-ssh
 	docker exec -it $argv[1] /bin/sh
 end
