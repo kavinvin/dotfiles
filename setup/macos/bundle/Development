@@ -13,7 +13,7 @@ brew "exiftool"
 brew "wget"
 brew "pre-commit"
 brew "fzf"
-brew "sbt"
+brew "coursier"
 brew "haskell-stack"
 brew "openjdk"
 

@@ -31,5 +31,6 @@ abbr pip 'python3 -m pip'
 alias e exit
 alias vim nvim
 alias vi nvim
+alias cs coursier
 
 alias ghci 'stack exec -- ghci'
