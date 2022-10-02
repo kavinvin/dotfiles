@@ -15,3 +15,5 @@ then
 else
   sudo n latest
 fi
+
+$(brew --prefix coursier)/bin/coursier setup
