@@ -11,3 +11,9 @@
 --     }
 --   }
 -- }
+
+-- Prevent yanking when deleting line
+vim.cmd [[
+nnoremap d "_d
+vnoremap d "_d
+]]
