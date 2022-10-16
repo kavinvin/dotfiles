@@ -12,8 +12,10 @@
 --   }
 -- }
 
--- Prevent yanking when deleting line
+-- Prevent yanking when deleting and changing lines
 vim.cmd [[
 nnoremap d "_d
 vnoremap d "_d
+nnoremap c "_c
+vnoremap c "_c
 ]]
