@@ -16,6 +16,7 @@ brew "fzf"
 brew "coursier"
 brew "sbt"
 brew "haskell-stack"
+brew "ghcup"
 brew "openjdk"
 
 cask "iterm2"
