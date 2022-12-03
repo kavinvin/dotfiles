@@ -1,0 +1,57 @@
+{
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "eslint.format.enable": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/data/**": true
+  },
+  "haskell.manageHLS": "GHCup",
+  "haskell.upgradeGHCup": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "xelatex ➞ bibtex ➞ xelatex`×2",
+      "tools": [
+        "xelatex",
+        "bibtex",
+        "xelatex",
+        "xelatex"
+      ]
+    }
+  ],
+  "python.linting.pylintEnabled": true,
+  "remote.SSH.configFile": "~/.ssh/vscode_config",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/local/bin/bash"
+    },
+    "zsh": {
+      "path": "/bin/zsh"
+    },
+    "fish": {
+      "path": "/usr/local/bin/fish"
+    },
+    "tmux": {
+      "path": "/usr/local/bin/tmux",
+      "icon": "terminal-tmux"
+    }
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/opt/homebrew/bin/nvim",
+  "workbench.editor.showTabs": false
+}
