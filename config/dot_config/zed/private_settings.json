@@ -23,5 +23,9 @@
   // disable cursor blink
   "cursor_blink": false,
   // use relative line numbers
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "hour_format": "hour24",
+  "terminal": {
+    "copy_on_select": true
+  }
 }
