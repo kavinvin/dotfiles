@@ -19,8 +19,3 @@ repos:
       - id: forbid-new-submodules
       - id: check-shebang-scripts-are-executable
       - id: check-executables-have-shebangs
-  - repo: https://github.com/lovesegfault/beautysh
-    rev: v6.2.1
-    hooks:
-      - id: beautysh
-        args: [--indent-size=2]
