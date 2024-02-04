@@ -1,3 +1,5 @@
+tap "virtuslab/scala-cli"
+
 brew "fish"
 brew "neovim"
 brew "chezmoi"
