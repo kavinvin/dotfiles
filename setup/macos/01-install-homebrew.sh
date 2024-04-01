@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PATH=$PATH:/opt/homebrew/bin
+export PATH="$PATH:/opt/homebrew/bin"
 
 # Install Homebrew
 if command -v brew &> /dev/null
