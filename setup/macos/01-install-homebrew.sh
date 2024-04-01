@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+export PATH=$PATH:/opt/homebrew/bin
+
 # Install Homebrew
-if command -v /opt/homebrew/bin/brew &> /dev/null
+if command -v brew &> /dev/null
 then
   echo "Homebrew is already installed."
 else
