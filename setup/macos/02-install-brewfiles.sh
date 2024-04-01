@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PATH=$PATH:/opt/homebrew/bin
+export PATH="$PATH:/opt/homebrew/bin"
 
 function install-bundle {
   BUNDLE_FILENAME="$1"
