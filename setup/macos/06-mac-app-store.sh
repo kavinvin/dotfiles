@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PATH="$PATH:/opt/homebrew/opt/"
+
 if [ "$CI" != "true" ]; then
   mas install 747648890 # Telegram
   mas install 803453959 # Slack
