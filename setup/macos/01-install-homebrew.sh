@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install Homebrew
-if command -v brew &> /dev/null
+if command -v /opt/homebrew/bin/brew &> /dev/null
 then
   echo "Homebrew is already installed."
 else
