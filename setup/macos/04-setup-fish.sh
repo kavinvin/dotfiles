@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PATH="$PATH:/opt/homebrew/bin"
+
 # Set fish as default shell
 if grep -Fxq "$(which fish)" /etc/shells
 then
