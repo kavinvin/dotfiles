@@ -11,9 +11,9 @@ function run_setup_script {
 }
 
 {{ if eq .chezmoi.os "linux" -}}
-run_setup_script "linux"
+  run_setup_script "linux"
 {{ else if eq .chezmoi.os "darwin" -}}
-run_setup_script "macos"
+  run_setup_script "macos"
 {{ else -}}
-echo "Unsupported OS."
+  echo "Unsupported OS."
 {{ end -}}

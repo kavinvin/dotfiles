@@ -19,3 +19,5 @@ else
 fi
 
 $(brew --prefix coursier)/bin/coursier setup
+
+$(brew --prefix pnpm)/bin/pnpm setup
