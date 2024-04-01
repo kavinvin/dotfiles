@@ -3,7 +3,7 @@
 function install-bundle {
   BUNDLE_FILENAME="$1"
   BUNDLE_DIR="bundle"
-  brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME --no-upgrade
+  /opt/homebrew/bin/brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME --no-upgrade
 }
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
