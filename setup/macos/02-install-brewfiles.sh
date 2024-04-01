@@ -5,7 +5,7 @@ export PATH=$PATH:/opt/homebrew/bin
 function install-bundle {
   BUNDLE_FILENAME="$1"
   BUNDLE_DIR="bundle"
-  /opt/homebrew/bin/brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME --no-upgrade
+  brew bundle --file $BUNDLE_DIR/$BUNDLE_FILENAME --no-upgrade
 }
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
