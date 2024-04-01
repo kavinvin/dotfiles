@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PATH=$PATH:/opt/homebrew/bin/brew
+export PATH=$PATH:/opt/homebrew/bin
 
 # Install fzf useful key bindings and fuzzy completion
 if test -f $HOME/.config/fish/functions/fzf_key_bindings.fish
