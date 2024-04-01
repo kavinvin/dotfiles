@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PATH="$PATH:/opt/homebrew/opt"
+export PATH="$PATH:/opt/homebrew/bin"
 
 if [ "$CI" != "true" ]; then
   mas install 747648890 # Telegram
