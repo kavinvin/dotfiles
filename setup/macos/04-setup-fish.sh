@@ -38,3 +38,6 @@ fisher-install jorgebucaran/spark.fish
 
 # Disable fish greeting message
 fish -c "set -U fish_greeting ''"
+
+# Set theme to Catppuccin
+fish_config theme save "Catppuccin Frappe"
