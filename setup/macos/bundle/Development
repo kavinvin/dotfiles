@@ -27,6 +27,7 @@ brew "node"
 brew "typescript"
 brew "postgresql"
 brew "pnpm"
+brew "rustup-init"
 
 cask "iterm2"
 cask "docker"
