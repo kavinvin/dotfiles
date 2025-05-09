@@ -16,6 +16,8 @@ Create or edit toml file at `~/.config/chezmoi/chezmoi.toml`
 [data.git]
   username = "your username"
   email = "your email"
+  signingKey = "your gpg key"
+  use1PasswordGpg = false
 ```
 
 Apply changes

@@ -42,11 +42,9 @@
 	insteadOf = https://github.com/
 [gpg]
 	format = ssh
-{{ with .preferences }}
-{{ if .preferences.use1Password }}
+{{ if and (and (hasKey . "git") (hasKey .git "use1PasswordGpg")) .git.use1PasswordGpg -}}
 [gpg "ssh"]
 	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
-{{ end -}}
 {{ end -}}
 [commit]
 	gpgsign = true
