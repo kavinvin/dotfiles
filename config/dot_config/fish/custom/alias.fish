@@ -32,5 +32,3 @@ alias e exit
 alias vim nvim
 alias vi nvim
 alias acme.sh "~/.acme.sh/acme.sh"
-
-alias ghci 'stack exec -- ghci'
