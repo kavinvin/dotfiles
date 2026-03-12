@@ -10,14 +10,5 @@ else
   $(brew --prefix)/opt/fzf/install
 fi
 
-# Install latest node version
-if command -v node &> /dev/null
-then
-  echo "Node is already installed."
-else
-  sudo n latest
-fi
 
 $(brew --prefix coursier)/bin/coursier setup
-
-$(brew --prefix pnpm)/bin/pnpm setup
